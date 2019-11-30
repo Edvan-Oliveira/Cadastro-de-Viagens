@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro Motorista</title>
+<link href="../css/estilo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="marca">
+				<img src="../imagens/logoCarro.png" height="80px;">
+			</div>
+			
+			<div id="menu">
+				<a href="../viagem/cadastro-viagem.html">Viagem</a>
+				<a href="lista-motorista.jsp">Motorista</a>
+				<a href="../passageiro/lista-passageiro.jsp">Passageiro</a>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<h1>Preencha os Dados do Motorista</h1>
+		<form action="salvar-motorista.jsp">
+			
+			<div id="esquerda">
+				<label for="nome">Nome: </label><br>
+				<input type="text" name="nome" id="nome" placeholder="Digite o nome do motorista" required maxlength="15"><br><br>
+				
+				<label for="sobreNome">Sobre Nome: </label><br>
+				<input type="text" name="sobreNome" id="sobreNome" placeholder="Digite o nome do passageiro" required maxlength="15"><br><br>
+				
+				<label for="telefone">Telefone: </label><br>
+				<input type="text" name="telefone" id="telefone" placeholder="(xx) xxxxx-xxxx" required maxlength="15"><br><br>
+			</div>
+			
+			<div id="direita">
+				<label for="email">E-mail: </label><br>
+				<input type="email" name="email" id="email" placeholder="endereco@email.com" required maxlength="30"><br><br>
+				
+				<label for="cpf">CPF: </label><br>
+				<input type="text" name="cpf" id="cpf" placeholder="xxx.xxx.xxx-xx" required maxlength="14"><br><br>
+				
+				<label for="senha">Criar Senha: </label><br>
+				<input type="password" name="senha" id="senha" placeholder="Criar senha" required maxlength="15"><br>
+			</div>
+			
+			<div id="clear">
+				<input type="submit" value="Cadastrar">
+			</div>
+		</form>
+	</div>
+	<footer>
+			Desenvolvido Por Edvan Oliveira
+	</footer>
+</body>
+</html>

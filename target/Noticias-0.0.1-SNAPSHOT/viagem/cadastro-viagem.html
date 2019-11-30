@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro Viagem</title>
+<link href="../css/estilo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="marca">
+				<img src="../imagens/logoCarro.png" height="80px;">
+			</div>
+			
+			<div id="menu">
+				<a href="lista-viagem.jsp">Viagem</a>
+				<a href="../motorista/lista-motorista.jsp">Motorista</a>
+				<a href="../passageiro/lista-passageiro.jsp">Passageiro</a>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<h1>Preencha os Dados da Viagem</h1>
+		<form action="salvar-viagem.jsp">
+			
+			<div id="esquerda">
+				<label for="motoristaId">Código do Motorista: </label><br>
+				<input type="number" name="motoristaId" id="motoristaId" placeholder="Digite o código do motorista" min="1" required max="2147483647"><br><br>
+				
+				<label for="passageiroId">Código do Passageiro: </label><br>
+				<input type="number" name="passageiroId" id="passageiroId" placeholder="Digite o código do passageiro" min="1" required max="2147483647"><br><br>
+			</div>
+			
+			<div id="direita">
+				<label for="inicoViagem">Inicio da Viagem: </label><br>
+				<input type="text" name="inicioViagem" id="inicioViagem" placeholder="Ex: Rua A n°12" required maxlength="50"><br><br>
+				
+				<label for="destinoViagem">Destino da Viagem: </label><br>
+				<input type="text" name="destinoViagem" id="destinoViagem" placeholder="Ex: Rua B n°16" required maxlength="50"><br><br>
+			</div>
+
+			<div id="clear">
+				<input type="submit" value="Cadastrar">
+			</div>
+		</form>
+	</div>
+	<footer>
+			Desenvolvido Por Edvan Oliveira
+	</footer>
+</body>
+</html>

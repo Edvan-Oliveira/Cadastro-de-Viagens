@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+
+header {
+	text-align: left;
+	background-color: #c2c2c2;
+	padding-bottom: 65px;
+	padding-top: 40px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 10px;
+	padding-bottom: 30px;
+	margin-right: 80px;
+	font-size: 40px;
+}
+
+body {
+	background-color: #d9d9d9;
+	font-size: 22px;
+	margin: 0px 0px 0px 0px;
+}
+.container {
+	clear: both;
+	width: 700px;
+	margin: 0 auto 0 auto;
+}
+
+#esquerda {
+	text-align: left;
+	float: left;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
+
+#direita {
+	text-align: left;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+
+}
+ #clear {
+ 	margin-top: 0px;
+ 	clear: both;
+ 	text-align: center;
+ 	align-items: center;
+ 	margin-bottom: 0px;
+ }
+
+input[type="text"], input[type="password"], input[type="number"], input[type="email"] {
+	height: 30px;
+	width: 290px;
+	font-size: 17px;
+	margin-bottom: 15px;
+	margin-top: 8px;
+	text-align: center;
+}
+
+input[name="telefone"], input[name="senha"] {
+	height: 30px;
+	width: 290px;
+}
+
+input[type="submit"] {
+	margin-top: 0px;
+	height: 60px;
+	width: 150px;
+	margin-right: 80px;
+	font-size: 17px;
+}
+
+#marca {
+	position: absolute;
+	top: 10px;
+	float: left;
+	width: 200px;
+}
+
+#menu {
+	float: right;
+	width: 500px;
+}
+
+#menu a {
+	text-decoration: none;
+	color: black;
+}
+
+#menu a:hover {
+	background-color: #5f9ea0;
+	color: #111;
+}
+
+a {
+	padding: 40px;
+}
+
+footer {
+	margin-top: 50px;
+	height: 60px;
+	background-color: #c2c2c2;
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+}

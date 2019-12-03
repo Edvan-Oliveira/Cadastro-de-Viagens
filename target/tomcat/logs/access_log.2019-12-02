@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:15:23:19 -0300] "GET / HTTP/1.1" 200 2025 http-bio-8899-exec-2 3653
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:15:23:19 -0300] "GET /css/estilo.css HTTP/1.1" 200 1601 http-bio-8899-exec-2 37
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:15:23:19 -0300] "GET /imagens/logoCarro.png HTTP/1.1" 200 1772 http-bio-8899-exec-8 15
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:15:23:19 -0300] "GET /favicon.ico HTTP/1.1" 404 738 http-bio-8899-exec-8 47
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:15:23:25 -0300] "GET /motorista/lista-motorista.jsp HTTP/1.1" 200 3343 http-bio-8899-exec-8 262
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:15:23:26 -0300] "GET /passageiro/lista-passageiro.jsp HTTP/1.1" 200 2655 http-bio-8899-exec-8 348
+0:0:0:0:0:0:0:1 - - [02/Dec/2019:15:23:27 -0300] "GET /passageiro/cadastro-passageiro.html HTTP/1.1" 200 1903 http-bio-8899-exec-8 22
